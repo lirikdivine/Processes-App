@@ -1,0 +1,23 @@
+
+    .wrapper {
+    @apply h-screen w-full flex justify-center flex-col ;
+    }
+    
+    .card {
+    @apply max-w-xl w-full min-w-fit  mx-auto rounded-2xl bg-gray-600 shadow-xl shadow-gray-950  p-10;
+    
+    }
+
+    .label {
+    
+    @apply flex flex-row border-b-2  border-b-slate-400 transition duration-200 hover:border-b-slate-200 mb-5 cursor-default;
+    }
+    
+    .input {
+    @apply outline-none text-2xl text-zinc-200 mb-1 w-full;
+    }
+    
+    .button {
+    @apply bg-teal-400 uppercase text-white text-xl rounded-xl font-bold  shadow py-3 transition duration-200 hover:bg-teal-500 hover:scale-105;
+    
+    }
